@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Adcombo",
+        "parameters": [
+            "subacc1",
+            "subacc2",
+            "subacc3",
+            "subacc4"
+        ]
+    },
+    {
+        "name": "Buygoods",
+        "parameters": [
+            "subid",
+            "subid2",
+            "subid3",
+            "subid4",
+            "subid5"
+        ]
+    },
+    {
+        "name": "Clickbank",
+        "parameters": [
+            "tid_1",
+            "tid_2",
+            "tid_3"
+        ]
+    },
+    {
+        "name": "Clickdealer",
+        "parameters": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5"
+        ]
+    },
+    {
+        "name": "Digistore24",
+        "parameters": [
+            "sid1",
+            "sid2",
+            "sid3",
+            "sid4",
+            "sid5"
+        ]
+    },
+    {
+        "name": "Gasmobi",
+        "parameters": [
+            "sub_id1",
+            "sub_id2",
+            "sub_id3"
+        ]
+    },
+    {
+        "name": "Gurumedia",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
+        "name": "Maxbounty",
+        "parameters": [
+            "subid1",
+            "subid2",
+            "subid3",
+            "subid4",
+            "subid5"
+        ]
+    },
+    {
+        "name": "Maxweb",
+        "parameters": [
+            "subid",
+            "subid2",
+            "subid3",
+            "subid4",
+            "subid5"
+        ]
+    },
+    {
+        "name": "SellHealth",
+        "parameters": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5"
+        ]
+    },
+    {
+        "name": "SmartAdv",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
+        "name": "Webvork",
+        "parameters": [
+            "utm_source",
+            "utm_medium",
+            "utm_campaign",
+            "utm_content",
+            "utm_term"
+        ]
+    },
+    {
+        "name": "TerraLeads",
+        "parameters": [
+            "sub_id",
+            "sub_id1",
+            "sub_id2",
+            "sub_id3",
+            "sub_id4"
+        ]
+    }
+]
