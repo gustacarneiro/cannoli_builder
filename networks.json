@@ -67,6 +67,15 @@
         ]
     },
     {
+        "name": "HealthTrader",
+        "parameters": [
+            "subid_one",
+            "subid_two",
+            "subid_three",
+            "click_id"
+        ]
+    },
+    {
         "name": "Maxbounty",
         "parameters": [
             "subid1",
