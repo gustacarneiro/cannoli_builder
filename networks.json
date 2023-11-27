@@ -128,10 +128,10 @@
         "name": "TerraLeads",
         "parameters": [
             "sub_id",
-            "sub_id1",
-            "sub_id2",
-            "sub_id3",
-            "sub_id4"
+            "sub_id_1",
+            "sub_id_2",
+            "sub_id_3",
+            "sub_id_4"
         ]
     }
 ]
