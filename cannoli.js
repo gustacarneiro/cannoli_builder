@@ -1,6 +1,9 @@
 // cannoli = awesomex10
 (function () {
     const urlParams = new URLSearchParams(window.location.search);
+
+    // Get the value of 'gclid', 'msclkid', or 'fbclid' parameters
+    var cnlidValue = urlParams.get('gclid') || urlParams.get('msclkid') || urlParams.get('fbclid');
     
     // Function to encode the 'tid' parameter value
     function encodeTidValue(value) {
@@ -14,6 +17,12 @@
             var link = links[i];
             var hash = link.hash;
             var urlWithoutHash = link.href.split('#')[0];
+
+            // Replace [cnlid] with the value from 'gclid', 'msclkid', or 'fbclid'
+            if (cnlidValue && urlWithoutHash.includes('[cnlid]')) {
+                urlWithoutHash = urlWithoutHash.replace('[cnlid]', cnlidValue);
+            }
+
             var newParams = new URLSearchParams(urlParams);
 
             // Check if 'tid' parameter exists and encode its value
