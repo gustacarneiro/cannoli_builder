@@ -8,6 +8,9 @@
         return value.replace(/ /g, '_s_').replace(/-/g, '_d_');
     }
 
+    // Get the value of 'gclid', 'msclkid', or 'fbclid' parameters
+    var cnlidValue = urlParams.get('gclid') || urlParams.get('msclkid') || urlParams.get('fbclid');
+
     if (urlParams.toString()) {
         var links = document.getElementsByTagName('a');
         for (var i = 0; i < links.length; i++) {
@@ -16,17 +19,16 @@
             var urlWithoutHash = link.href.split('#')[0];
             var linkParams = new URL(urlWithoutHash).searchParams;
 
-            // Get the value of 'gclid', 'msclkid', or 'fbclid' parameters
-            var cnlidValue = urlParams.get('gclid') || urlParams.get('msclkid') || urlParams.get('fbclid');
+            var replacementValue = cnlidValue;
 
             // Check if 'tid' parameter exists in the link and encode cnlid value
             if (linkParams.has('tid') && cnlidValue) {
-                cnlidValue = encodeValue(cnlidValue);
+                replacementValue = encodeValue(cnlidValue);
             }
 
-            // Replace [cnlid] with the encoded value from 'gclid', 'msclkid', or 'fbclid'
-            if (cnlidValue && urlWithoutHash.includes('[cnlid]')) {
-                urlWithoutHash = urlWithoutHash.replace('[cnlid]', cnlidValue);
+            // Replace [cnlid] with the appropriate value
+            if (replacementValue && urlWithoutHash.includes('[cnlid]')) {
+                urlWithoutHash = urlWithoutHash.replace('[cnlid]', replacementValue);
             }
 
             var newParams = new URLSearchParams(urlParams);
