@@ -22,7 +22,7 @@
             var replacementValue = cnlidValue;
 
             // Check if 'tid' parameter exists in the link's URL and encode cnlid value
-            if (urlWithoutHash.has('tid')) {
+            if (linkParams.has('tid')) {
                 replacementValue = encodeValue(cnlidValue);
                 console.log(`Replacement value is: ${replacementValue}`);
             }
