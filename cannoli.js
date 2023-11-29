@@ -21,7 +21,7 @@
 
             var replacementValue = cnlidValue;
 
-            // Check if 'tid' parameter exists in the link and encode cnlid value
+            // Check if 'tid' parameter exists in the link's URL and encode cnlid value
             if (linkParams.has('tid') && cnlidValue) {
                 replacementValue = encodeValue(cnlidValue);
             }
@@ -31,17 +31,8 @@
                 urlWithoutHash = urlWithoutHash.replace('[cnlid]', replacementValue);
             }
 
-            var newParams = new URLSearchParams(urlParams);
-
-            // Check if 'tid' parameter exists and encode its value
-            if (newParams.has('tid')) {
-                var tidValue = newParams.get('tid');
-                var encodedTidValue = encodeValue(tidValue);
-                newParams.set('tid', encodedTidValue);
-            }
-
             // Construct the new URL with modified parameters
-            var paramString = newParams.toString();
+            var paramString = urlParams.toString();
             if (urlWithoutHash.indexOf('?') === -1) {
                 urlWithoutHash += '?' + paramString;
             } else {
