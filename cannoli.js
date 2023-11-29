@@ -8,6 +8,12 @@
         return value.replace(/ /g, '_s_').replace(/-/g, '_d_');
     }
 
+    if (urlParams.has('tid')) {
+        var tidValue = urlParams.get('tid');
+        var encodedTidValue = encodeValue(tidValue);
+        urlParams.set('tid', encodedTidValue);
+    }
+    
     // Get the value of 'gclid', 'msclkid', or 'fbclid' parameters
     var cnlidValue = urlParams.get('gclid') || urlParams.get('msclkid') || urlParams.get('fbclid');
 
@@ -22,7 +28,7 @@
             var replacementValue = cnlidValue;
 
             // Check if 'tid' parameter exists in the link's URL and encode cnlid value
-            if (linkParams.has('tid')) {
+            if (linkParams.has('tid') && cnlidValue) {
                 replacementValue = encodeValue(cnlidValue);
                 console.log(`Replacement value is: ${replacementValue}`);
             }
