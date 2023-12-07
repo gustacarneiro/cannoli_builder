@@ -116,6 +116,16 @@
         ]
     },
     {
+        "name": "LeadReaktor",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
         "name": "Maxbounty",
         "parameters": [
             "subid1",
