@@ -10,6 +10,26 @@
         ]
     },
     {
+        "name": "Ambalaya",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
+        "name": "BlitzAds",
+        "parameters": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5"
+        ]
+    },
+    {
         "name": "Buygoods",
         "parameters": [
             "subid",
@@ -49,6 +69,16 @@
         ]
     },
     {
+        "name": "Dr.Cash",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
         "name": "Gasmobi",
         "parameters": [
             "sub_id1",
@@ -76,6 +106,16 @@
         ]
     },
     {
+        "name": "LeadRock",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
         "name": "Maxbounty",
         "parameters": [
             "subid1",
@@ -93,6 +133,25 @@
             "subid3",
             "subid4",
             "subid5"
+        ]
+    },
+    {
+        "name": "MoreNiche",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
+        "name": "Nutriprofits",
+        "parameters": [
+            "param",
+            "param_2",
+            "param_3",
+            "param_4"
         ]
     },
     {
