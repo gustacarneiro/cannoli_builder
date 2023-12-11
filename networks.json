@@ -128,11 +128,8 @@
     {
         "name": "Maxbounty",
         "parameters": [
-            "subid1",
-            "subid2",
-            "subid3",
-            "subid4",
-            "subid5"
+            "s1",
+            "s2"
         ]
     },
     {
