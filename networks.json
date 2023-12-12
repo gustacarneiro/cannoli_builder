@@ -10,6 +10,17 @@
         ]
     },
     {
+        "name": "Affbay",
+        "parameters": [
+            "subid",
+            "subid2",
+            "subid3",
+            "subid4",
+            "subid5",
+            "click_id"
+        ]
+    },
+    {
         "name": "Ambalaya",
         "parameters": [
             "sub1",
