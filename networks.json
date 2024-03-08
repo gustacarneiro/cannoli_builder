@@ -136,6 +136,16 @@
         ]
     },
     {
+        "name": "LemonAd",
+        "parameters": [
+            "utm_source",
+            "utm_medium",
+            "utm_campaign",
+            "utm_content",
+            "utm_term"
+        ]
+    },
+    {
         "name": "Maxbounty",
         "parameters": [
             "s1",
