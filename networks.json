@@ -10,6 +10,16 @@
         ]
     },
     {
+        "name": "Adexico",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
         "name": "Affbay",
         "parameters": [
             "subid",
@@ -68,6 +78,16 @@
         ]
     },
     {
+        "name": "ClickFlow",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
         "name": "Digistore24",
         "parameters": [
             "sid1",
@@ -89,11 +109,31 @@
         ]
     },
     {
+        "name": "Everflow",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
+        ]
+    },
+    {
         "name": "Gasmobi",
         "parameters": [
             "sub_id1",
             "sub_id2",
             "sub_id3"
+        ]
+    },
+    {
+        "name": "GiantMobi",
+        "parameters": [
+            "sub1",
+            "sub2",
+            "sub3",
+            "sub4",
+            "sub5"
         ]
     },
     {
