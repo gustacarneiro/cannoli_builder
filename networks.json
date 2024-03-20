@@ -129,11 +129,11 @@
     {
         "name": "GiantMobi",
         "parameters": [
-            "sub1",
-            "sub2",
-            "sub3",
-            "sub4",
-            "sub5"
+            "aff_sub1",
+            "aff_sub2",
+            "aff_sub3",
+            "aff_sub4",
+            "aff_sub5"
         ]
     },
     {
