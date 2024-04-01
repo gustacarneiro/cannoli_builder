@@ -62,7 +62,8 @@
     {
         "name": "Clickbank",
         "parameters": [
-            "tid"
+            "tid_1",
+            "tid_2"
         ]
     },
     {
